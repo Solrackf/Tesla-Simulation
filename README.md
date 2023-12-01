@@ -4,6 +4,7 @@
 El proyecto es un clon de la página web de Tesla utilizando tecnologías avanzadas como Astro, Tailwind CSS y JavaScript para recrear la experiencia visual y funcional de la página original. A través de este esfuerzo individual, exploro las capacidades de desarrollo web moderno y diseño interactivo. Este clon de Tesla representa mi dedicación a la creación de aplicaciones web estilizadas y funcionalmente sólidas.
 
 
+
 ## Pasos para la Instalación
 
 ### 1. Clonar el Repositorio
