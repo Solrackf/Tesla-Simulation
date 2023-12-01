@@ -1,47 +1,44 @@
-# Astro Starter Kit: Minimal
 
-```sh
-npm create astro@latest -- --template minimal
-```
+# Tesla Simulation
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+El proyecto es un clon de la página web de Tesla utilizando tecnologías avanzadas como Astro, Tailwind CSS y JavaScript para recrear la experiencia visual y funcional de la página original. A través de este esfuerzo individual, exploro las capacidades de desarrollo web moderno y diseño interactivo. Este clon de Tesla representa mi dedicación a la creación de aplicaciones web estilizadas y funcionalmente sólidas.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
+## Pasos para la Instalación
 
-Inside of your Astro project, you'll see the following folders and files:
+### 1. Clonar el Repositorio
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+    git clone https://github.com/Solrackf/Tesla-Simulation.git
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### 2. Cambiar al Directorio del Proyecto
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+    cd Tesla-Simulation
 
-Any static assets, like images, can be placed in the `public/` directory.
+### 3. Instalar Dependencias
 
-## 🧞 Commands
+    npm install
 
-All commands are run from the root of the project, from a terminal:
+## Iniciar el Proyecto
+Para trabajar en el proyecto, ejecuta el siguiente comando:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+    npm run start
 
-## 👀 Want to learn more?
+Esto iniciará un servidor local y te proporcionará una URL para ver la página web en desarrollo. Los cambios se reflejarán automáticamente gracias a la recarga en caliente (hot-reloading) de Astro.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Construir el Archivo Final
+
+Cuando estés listo para la producción, utiliza el siguiente comando:
+
+    npm run build
+
+Este comando generará una carpeta `dist` o similar, con los archivos optimizados para desplegar en un servidor web.
+
+## Contribuciones
+
+¡Contribuciones y sugerencias son bienvenidas! Si encuentras algún problema o tienes una idea para mejorar el proyecto, por favor, abre un problema o envía una solicitud de extracción.
+
+## Licencia
+
+MIT License
+
+Copyright (c) 2023 Carlos Escorcia
